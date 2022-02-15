@@ -1,0 +1,31 @@
+.contacts--ml {
+  margin-left: auto;
+}
+
+.contacts__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--text-color-two);
+  transition: color var(--transition-duration) var(--transition-timing-function);
+}
+
+.contacts__link:hover,
+.contacts__link:focus {
+  color: var(--brand-color);
+}
+
+.contacts__icon {
+  margin-right: 10px;
+
+  fill: currentColor;
+}

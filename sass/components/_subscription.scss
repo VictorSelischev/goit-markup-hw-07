@@ -1,0 +1,33 @@
+.media--mr {
+  margin-right: 93px;
+}
+
+.media__text,
+.subscription__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-white);
+
+  margin-bottom: 20px;
+}
+
+.subscription__input {
+  display: inline-block;
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  margin-right: 12px;
+
+  background-color: var(--background-color-section);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: rgba(255, 255, 255, 0.6);
+  outline: none;
+}

@@ -1,0 +1,19 @@
+.section-hero {
+  padding: 200px 0;
+
+  background-color: var(--background-color-section);
+  text-align: center;
+}
+
+.section-hero__title {
+  max-width: 696px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+  color: var(--color-white);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}

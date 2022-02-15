@@ -1,0 +1,48 @@
+.form-modal__checkbox[type='checkbox'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.form-modal__check {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 15px;
+  margin-right: 4px;
+
+  background-color: #fff;
+  border-radius: 2px;
+  border: 2px solid var(--text-color);
+}
+
+.form-modal__icon-checkbox {
+  fill: var(--color-white);
+  stroke: var(--color-white);
+  stroke-width: 0.2px;
+}
+
+.form-modal__checkbox:checked + .form-modal__check {
+  background-color: var(--brand-color);
+  border: none;
+}
+
+.form-modal__checkbox-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--text-color-two);
+}
+
+.form-modal__link {
+  color: var(--brand-color);
+
+  cursor: pointer;
+}

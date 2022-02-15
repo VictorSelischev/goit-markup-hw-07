@@ -1,0 +1,35 @@
+.excellence-list__item {
+  max-width: 270px;
+}
+
+.excellence-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.excellence-list__icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--button-filter-color);
+  height: 120px;
+  border-radius: 4px;
+
+  margin-bottom: 30px;
+}
+
+.excellence__subtitle {
+  margin-bottom: 10px;
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.excellence__text {
+  color: var(--text-color-two);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
