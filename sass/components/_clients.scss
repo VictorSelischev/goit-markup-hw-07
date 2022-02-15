@@ -20,12 +20,12 @@
 
   transition: color var(--transition-duration) var(--transition-timing-function);
   transition: border-color var(--transition-duration) var(--transition-timing-function);
-}
 
-.clients-list__link:hover,
-.clients-list__link:focus {
-  color: var(--brand-color);
-  border-color: var(--brand-color);
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+    border-color: var(--brand-color);
+  }
 }
 
 .clients-list__icon {

@@ -1,5 +1,13 @@
 .section {
   padding: 95px 0;
+
+  &--no-pt {
+    padding-top: 0;
+  }
+
+  &--fon {
+    background: var(--button-filter-color);
+  }
 }
 
 .section__title {
@@ -10,12 +18,4 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-}
-
-.section--no-pt {
-  padding-top: 0;
-}
-
-.section--fon {
-  background: var(--button-filter-color);
 }

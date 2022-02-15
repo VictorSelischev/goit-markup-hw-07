@@ -17,11 +17,11 @@
 
   color: var(--text-color-two);
   transition: color var(--transition-duration) var(--transition-timing-function);
-}
 
-.contacts__link:hover,
-.contacts__link:focus {
-  color: var(--brand-color);
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }
 
 .contacts__icon {

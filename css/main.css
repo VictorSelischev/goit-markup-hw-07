@@ -75,6 +75,14 @@ textarea {
   padding: 95px 0;
 }
 
+.section--no-pt {
+  padding-top: 0;
+}
+
+.section--fon {
+  background: var(--button-filter-color);
+}
+
 .section__title {
   margin-bottom: 50px;
   font-weight: var(--font-w700);
@@ -82,14 +90,6 @@ textarea {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-align: center;
-}
-
-.section--no-pt {
-  padding-top: 0;
-}
-
-.section--fon {
-  background: var(--button-filter-color);
 }
 
 .container {
@@ -109,17 +109,17 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.header__logo {
-  padding: 25px 0;
-  margin-right: 90px;
-}
-
 .logo--black {
   color: var(--brand-color-black);
 }
 
 .logo--white {
   color: var(--brand-color-white);
+}
+
+.header__logo {
+  padding: 25px 0;
+  margin-right: 90px;
 }
 
 .site-nav__item:not(:last-child),
@@ -141,8 +141,7 @@ textarea {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.site-nav__link:hover,
-.site-nav__link:focus {
+.site-nav__link:hover, .site-nav__link:focus {
   color: var(--brand-color);
 }
 
@@ -189,8 +188,7 @@ textarea {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.contacts__link:hover,
-.contacts__link:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--brand-color);
 }
 
@@ -222,10 +220,6 @@ textarea {
 
 .footer__logo {
   margin-bottom: 20px;
-}
-
-.address-item:last-child {
-  margin-bottom: 0;
 }
 
 .address-list__item:not(:last-child) {
@@ -280,15 +274,14 @@ textarea {
   transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
+.icons-list__link:hover, .icons-list__link:focus {
+  color: var(--color-white);
+  background-color: var(--brand-color);
+}
+
 .icons-list__link--white {
   color: var(--color-white);
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.icons-list__link:hover,
-.icons-list__link:focus {
-  color: var(--color-white);
-  background-color: var(--brand-color);
 }
 
 .icons-list__icon {
@@ -351,8 +344,7 @@ textarea {
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button:hover, .button:focus {
   background-color: var(--button-filter-color-hover);
 }
 
@@ -540,8 +532,7 @@ textarea {
   transition: border-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.clients-list__link:hover,
-.clients-list__link:focus {
+.clients-list__link:hover, .clients-list__link:focus {
   color: var(--brand-color);
   border-color: var(--brand-color);
 }
@@ -581,8 +572,7 @@ textarea {
   transition: background-color var(--transition-duration) var(--transition-timing-function), color var(--transition-duration) var(--transition-timing-function), box-shadow var(--transition-duration) var(--transition-timing-function), -webkit-box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
-.button-filter:hover,
-.button-filter:focus {
+.button-filter:hover, .button-filter:focus {
   background-color: var(--brand-color);
   color: var(--color-white);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -621,8 +611,7 @@ textarea {
   transition: box-shadow var(--transition-duration) var(--transition-timing-function), -webkit-box-shadow var(--transition-duration) var(--transition-timing-function);
 }
 
-.portfolio__link:hover,
-.portfolio__link:focus {
+.portfolio__link:hover, .portfolio__link:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -748,14 +737,14 @@ textarea {
   cursor: pointer;
 }
 
+.cross:hover .cross__icon {
+  fill: var(--brand-color);
+}
+
 .cross__icon {
   fill: var(--text-color);
   -webkit-transition: fill var(--transition-duration) var(--transition-timing-function);
   transition: fill var(--transition-duration) var(--transition-timing-function);
-}
-
-.cross:hover .cross__icon {
-  fill: var(--brand-color);
 }
 
 .form-modal {
@@ -814,6 +803,10 @@ textarea {
   transition: border-color var(--transition-duration) var(--transition-timing-function);
 }
 
+.form-field__input:focus {
+  border-color: var(--brand-color);
+}
+
 .form-field__icon {
   position: absolute;
   left: 12px;
@@ -856,7 +849,6 @@ textarea {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form-field__input:focus,
 .form-field__comment:focus {
   border-color: var(--brand-color);
 }

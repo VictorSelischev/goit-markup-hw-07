@@ -18,11 +18,11 @@
   transition: background-color var(--transition-duration) var(--transition-timing-function);
 
   cursor: pointer;
-}
 
-.button:hover,
-.button:focus {
-  background-color: var(--button-filter-color-hover);
+  &:hover,
+  &:focus {
+    background-color: var(--button-filter-color-hover);
+  }
 }
 
 .button__icon {

@@ -250,10 +250,6 @@ textarea {
 
 /* ------------- ADDRESS ---------- */
 
-.address-item:last-child {
-  margin-bottom: 0;
-}
-
 .address-list__item:not(:last-child) {
   margin-bottom: 10px;
 }

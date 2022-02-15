@@ -38,6 +38,10 @@
   outline: none;
 
   transition: border-color var(--transition-duration) var(--transition-timing-function);
+
+  &:focus {
+    border-color: var(--brand-color);
+  }
 }
 
 .form-field__icon {
@@ -68,13 +72,12 @@
   outline: none;
 
   transition: border-color var(--transition-duration) var(--transition-timing-function);
-}
 
-.form-field__comment::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-}
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+  }
 
-.form-field__input:focus,
-.form-field__comment:focus {
-  border-color: var(--brand-color);
+  &:focus {
+    border-color: var(--brand-color);
+  }
 }

@@ -19,17 +19,17 @@
 
   transition: color var(--transition-duration) var(--transition-timing-function);
   transition: background-color var(--transition-duration) var(--transition-timing-function);
-}
 
-.icons-list__link--white {
-  color: var(--color-white);
-  background-color: rgba(255, 255, 255, 0.1);
-}
+  &:hover,
+  &:focus {
+    color: var(--color-white);
+    background-color: var(--brand-color);
+  }
 
-.icons-list__link:hover,
-.icons-list__link:focus {
-  color: var(--color-white);
-  background-color: var(--brand-color);
+  &--white {
+    color: var(--color-white);
+    background-color: rgba(255, 255, 255, 0.1);
+  }
 }
 
 .icons-list__icon {

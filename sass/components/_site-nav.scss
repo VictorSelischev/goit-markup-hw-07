@@ -16,11 +16,11 @@
   color: var(--text-color);
 
   transition: color var(--transition-duration) var(--transition-timing-function);
-}
 
-.site-nav__link:hover,
-.site-nav__link:focus {
-  color: var(--brand-color);
+  &:hover,
+  &:focus {
+    color: var(--brand-color);
+  }
 }
 
 .site-nav__current {
