@@ -15,13 +15,13 @@
   border-radius: 50%;
 
   cursor: pointer;
-
-  &:hover .cross__icon {
-    fill: var(--brand-color);
-  }
 }
 
 .cross__icon {
   fill: var(--text-color);
   transition: fill var(--transition-duration) var(--transition-timing-function);
+
+  .cross:hover & {
+    fill: var(--brand-color);
+  }
 }

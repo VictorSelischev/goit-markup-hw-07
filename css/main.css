@@ -737,14 +737,14 @@ textarea {
   cursor: pointer;
 }
 
-.cross:hover .cross__icon {
-  fill: var(--brand-color);
-}
-
 .cross__icon {
   fill: var(--text-color);
   -webkit-transition: fill var(--transition-duration) var(--transition-timing-function);
   transition: fill var(--transition-duration) var(--transition-timing-function);
+}
+
+.cross:hover .cross__icon {
+  fill: var(--brand-color);
 }
 
 .form-modal {
@@ -877,15 +877,15 @@ textarea {
   border: 2px solid var(--text-color);
 }
 
+.form-modal__checkbox:checked + .form-modal__check {
+  background-color: var(--brand-color);
+  border: none;
+}
+
 .form-modal__icon-checkbox {
   fill: var(--color-white);
   stroke: var(--color-white);
   stroke-width: 0.2px;
-}
-
-.form-modal__checkbox:checked + .form-modal__check {
-  background-color: var(--brand-color);
-  border: none;
 }
 
 .form-modal__checkbox-text {
