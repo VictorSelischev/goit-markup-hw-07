@@ -24,14 +24,6 @@ textarea {
   resize: none;
 }
 
-.list {
-  list-style: none;
-}
-
-.flex {
-  display: flex;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -44,4 +36,8 @@ textarea {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.flex {
+  display: flex;
 }

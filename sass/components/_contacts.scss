@@ -1,3 +1,8 @@
+.contacts {
+  @extend %flex;
+  @extend %list;
+}
+
 .contacts--ml {
   margin-left: auto;
 }

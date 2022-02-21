@@ -1,5 +1,6 @@
 .clients-list {
-  display: flex;
+  @extend %list;
+  @extend %flex;
   justify-content: center;
   align-items: center;
 }

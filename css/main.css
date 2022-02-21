@@ -47,16 +47,6 @@ textarea {
   resize: none;
 }
 
-.list {
-  list-style: none;
-}
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -69,6 +59,22 @@ textarea {
           clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-nav, .contacts, .address-list, .icons-list, .excellence-list, .development, .team-list, .clients-list {
+  list-style: none;
+}
+
+.site-nav, .contacts, .icons-list, .excellence-list, .development, .team-list, .clients-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .section {
@@ -236,14 +242,11 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.address-list__link--footer-color-two {
+.address-list__link .address-list__link--footer-color-two {
   color: var(--color-section-text-two);
 }
 
 .icons-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -496,9 +499,6 @@ textarea {
 }
 
 .clients-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;

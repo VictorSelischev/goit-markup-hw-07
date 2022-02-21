@@ -1,3 +1,8 @@
+.development {
+  @extend %list;
+  @extend %flex;
+}
+
 .development__item {
   position: relative;
 }

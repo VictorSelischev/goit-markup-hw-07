@@ -1,5 +1,6 @@
 .icons-list {
-  display: flex;
+  @extend %list;
+  @extend %flex;
   justify-content: center;
 }
 

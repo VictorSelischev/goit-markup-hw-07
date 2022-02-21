@@ -1,3 +1,8 @@
+.excellence-list {
+  @extend %flex;
+  @extend %list;
+}
+
 .excellence-list__item {
   max-width: 270px;
 }
