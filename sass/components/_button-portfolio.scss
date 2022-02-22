@@ -1,5 +1,6 @@
 .buttons-list {
-  display: flex;
+  @extend %list;
+  @extend %flex;
   justify-content: center;
   margin-bottom: 50px;
 }

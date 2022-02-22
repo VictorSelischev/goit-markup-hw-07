@@ -1,5 +1,6 @@
 .portfolio {
-  display: flex;
+  @extend %list;
+  @extend %flex;
   flex-wrap: wrap;
 }
 
