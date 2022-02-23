@@ -158,12 +158,12 @@ textarea {
   color: var(--brand-color);
 }
 
-.site-nav__current {
-  color: var(--brand-color);
+.current {
   position: relative;
+  color: var(--brand-color);
 }
 
-.site-nav__current::after {
+.current::after {
   content: '';
   display: block;
   width: 100%;
