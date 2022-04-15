@@ -1,6 +1,5 @@
 @import 'utils/variables';
 @import 'utils/visually-hidden';
-@import 'utils/backdrop';
 
 @import 'base/base';
 @import 'base/container';
@@ -17,6 +16,7 @@
 @import 'components/button';
 @import 'components/button-portfolio';
 @import 'components/overlay-in-portfolio';
+@import 'components/backdrop';
 @import 'components/modal';
 @import 'components/button-cross';
 @import 'components/form-field';
