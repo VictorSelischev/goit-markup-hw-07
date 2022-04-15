@@ -1,29 +1,33 @@
 @import 'utils/variables';
+@import 'utils/visually-hidden';
+@import 'utils/backdrop';
+
 @import 'base/base';
 @import 'base/container';
 @import 'base/section';
-@import 'utils/visually-hidden';
-@import 'layout/header';
+
+@import 'components/section__title';
+@import 'components/section-hero__title';
 @import 'components/logo';
-@import 'layout/site-nav';
-@import 'layout/contacts';
-@import 'layout/footer';
-@import 'layout/address';
+@import 'components/site-nav';
+@import 'components/contacts';
+@import 'components/address';
+@import 'components/subscription';
 @import 'components/icons';
-@import 'layout/subscription';
 @import 'components/button';
+@import 'components/button-portfolio';
+@import 'components/overlay-in-portfolio';
+@import 'components/modal';
+@import 'components/button-cross';
+@import 'components/form-field';
+@import 'components/form-checkbox';
+
+@import 'layout/header';
+@import 'layout/footer';
 @import 'layout/hero';
-@import 'components/overlay-in-hero';
 @import 'layout/excellence';
 @import 'layout/development';
 @import 'layout/team';
 @import 'layout/clients';
-@import 'components/button-portfolio';
 @import 'layout/portfolio';
-@import 'components/overlay-in-portfolio';
-@import 'components/backdrop';
-@import 'components/modal';
-@import 'components/button-cross';
-@import 'components/form-modal';
-@import 'components/form-field';
-@import 'components/form-checkbox';
+
