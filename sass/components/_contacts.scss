@@ -1,10 +1,10 @@
 .contacts {
   @extend %flex;
   @extend %list;
-}
 
-.contacts--ml {
-  margin-left: auto;
+  &--ml {
+    margin-left: auto;
+  }
 }
 
 .contacts__link {

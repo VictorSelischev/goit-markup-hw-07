@@ -1,3 +1,5 @@
+// FOOTER ADDRESS
+
 .address-list {
   @extend %list;
 }
@@ -15,8 +17,10 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+
+    &--footer-color-two {
+    color: var(--color-section-text-two);
+  }
 }
 
-.address-list__link--footer-color-two {
-  color: var(--color-section-text-two);
-}
+
