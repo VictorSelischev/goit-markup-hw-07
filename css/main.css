@@ -134,6 +134,10 @@ textarea {
   margin-right: 90px;
 }
 
+.footer__logo {
+  margin-bottom: 20px;
+}
+
 .site-nav__item:not(:last-child),
 .contacts__item:not(:last-child) {
   margin-right: 50px;
@@ -272,7 +276,7 @@ textarea {
   margin-right: 10px;
 }
 
-.icons-list__link, .icons-list__link--white {
+.icons-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -293,14 +297,14 @@ textarea {
   transition: background-color var(--transition-duration) var(--transition-timing-function);
 }
 
-.icons-list__link:hover, .icons-list__link--white:hover, .icons-list__link:focus, .icons-list__link--white:focus {
-  color: var(--color-white);
-  background-color: var(--brand-color);
-}
-
 .icons-list__link--white {
   color: var(--color-white);
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icons-list__link:hover, .icons-list__link:focus {
+  color: var(--color-white);
+  background-color: var(--brand-color);
 }
 
 .icons-list__icon {
@@ -675,10 +679,6 @@ textarea {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-}
-
-.footer__logo {
-  margin-bottom: 20px;
 }
 
 .section-hero {

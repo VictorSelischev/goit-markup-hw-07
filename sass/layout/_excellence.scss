@@ -5,10 +5,10 @@
 
 .excellence-list__item {
   max-width: 270px;
-}
 
-.excellence-list__item:not(:last-child) {
-  margin-right: 30px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .excellence-list__icon {

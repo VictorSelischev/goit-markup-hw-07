@@ -21,9 +21,11 @@
 
   transform: translatey(101%);
   transition: transform var(--transition-duration) var(--transition-timing-function);
+
+  .portfolio__link:hover &,
+  .portfolio__link:focus & {
+    transform: translatey(0);
+  }
 }
 
-.portfolio__link:hover .portfolio__overlay,
-.portfolio__link:focus .portfolio__overlay {
-  transform: translatey(0);
-}
+

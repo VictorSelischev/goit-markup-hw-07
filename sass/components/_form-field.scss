@@ -50,10 +50,10 @@
   top: 11px;
 
   fill: currentColor;
-}
 
-.form-field__input:focus + .form-field__icon {
-  fill: var(--brand-color);
+  .form-field__input:focus + & {
+    fill: var(--brand-color);
+  }
 }
 
 .form-field__comment {

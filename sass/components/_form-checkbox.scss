@@ -15,11 +15,11 @@
   background-color: #fff;
   border-radius: 2px;
   border: 2px solid var(--text-color);
-}
 
-.form-modal__checkbox:checked + .form-modal__check {
-  background-color: var(--brand-color);
-  border: none;
+  .form-modal__checkbox:checked + & {
+    background-color: var(--brand-color);
+    border: none;
+  }
 }
 
 .form-modal__icon-checkbox {
