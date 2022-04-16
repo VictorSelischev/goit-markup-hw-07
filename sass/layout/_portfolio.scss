@@ -1,6 +1,7 @@
 .portfolio {
   @extend %list;
-  @extend %flex;
+  
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -50,14 +51,10 @@
 
   color: var(--text-color);
   font-weight: var(--font-w700);
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font (18px, 2, 0.06em);
 }
 
 .portfolio__text {
   color: var(--text-color-two);
-  font-size: 16px;
-  line-height: 2;
-  letter-spacing: 0.03em;
+  @include font (16px, 2, 0.03em);
 }

@@ -1,7 +1,5 @@
 .button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  @include centeredFlex ($disp: inline-flex);
   width: 200px;
   height: 50px;
   border: none;
@@ -10,9 +8,7 @@
   color: var(--color-white);
   font-family: inherit;
   font-weight: var(--font-w700);
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.06em;
+  @include font (16px, 1.88, 0.06em);
 
   background-color: var(--brand-color);
   transition: background-color var(--transition-duration) var(--transition-timing-function);

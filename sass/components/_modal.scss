@@ -26,13 +26,10 @@
 .form-modal__title {
   margin-bottom: 12px;
 
-  font-weight: var(--font-w700);
-  font-size: 20px;
-  line-height: 1.15;
-  text-align: center;
-  letter-spacing: 0.03em;
-
   color: var(--text-color);
+  text-align: center;
+  font-weight: var(--font-w700);
+  @include font (20px, 1.15, 0.03em);
 }
 
 .form-modal__button {

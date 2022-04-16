@@ -1,6 +1,7 @@
 .icons-list {
   @extend %list;
-  @extend %flex;
+  
+  display: flex;
   justify-content: center;
 }
 
@@ -9,12 +10,11 @@
 }
 
 .icons-list__link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex ();
   width: 44px;
   height: 44px;
   border-radius: 50%;
+  
   color: var(--icon-color);
   background-color: var(--color-white);
 

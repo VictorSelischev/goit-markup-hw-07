@@ -5,9 +5,7 @@
 }
 
 .form-modal__check {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex ();
   width: 16px;
   height: 15px;
   margin-right: 4px;
@@ -29,17 +27,12 @@
 }
 
 .form-modal__checkbox-text {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex ();
   margin-bottom: 30px;
 
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-
   color: var(--text-color-two);
-}
+  @include font (14px, 1.71, 0.03em);
+  }
 
 .form-modal__link {
   color: var(--brand-color);

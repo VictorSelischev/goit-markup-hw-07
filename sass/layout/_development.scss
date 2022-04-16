@@ -1,6 +1,7 @@
 .development {
   @extend %list;
-  @extend %flex;
+  
+  display: flex;
 }
 
 .development__item {
@@ -16,9 +17,7 @@
   bottom: 0;
   left: 0;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include centeredFlex ();
   height: 70px;
   width: 100%;
 
@@ -26,11 +25,9 @@
 }
 
 .development__text {
+  color: var(--color-white);
   text-align: center;
   font-weight: var(--font-w700);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
+  @include font (14px, 1.14, 0.03em);
   text-transform: uppercase;
-  color: var(--color-white);
 }

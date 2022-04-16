@@ -1,6 +1,6 @@
 .contacts {
-  @extend %flex;
   @extend %list;
+  display: flex;
 
   &--ml {
     margin-left: auto;
@@ -8,19 +8,15 @@
 }
 
 .contacts__link {
+  @include centeredFlex ();
   padding-top: 32px;
   padding-bottom: 32px;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
+  color: var(--text-color-two);
   text-decoration: none;
   font-weight: var(--font-w500);
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
+  @include font (14px, 1.14, 0.02em);
 
-  color: var(--text-color-two);
   transition: color var(--transition-duration) var(--transition-timing-function);
 
   &:hover,

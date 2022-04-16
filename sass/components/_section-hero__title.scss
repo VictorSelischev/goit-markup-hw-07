@@ -5,8 +5,6 @@
 
     color: var(--color-white);
     font-weight: var(--font-w900);
-    font-size: 44px;
-    line-height: 1.36;
-    letter-spacing: 0.06em;
+    @include font (44px, 1.36, 0.06em);
     text-transform: uppercase;
 }
