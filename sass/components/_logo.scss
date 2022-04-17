@@ -7,11 +7,11 @@
   font-weight: var(--font-w700);
   @include font (26px, 1.19, 0.03em);
 
-  &--black {
+  &_color_black {
     color: var(--brand-color-black);
   }
 
-  &--white {
+  &_color_white {
     color: var(--brand-color-white);
   }
 }

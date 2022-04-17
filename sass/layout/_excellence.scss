@@ -26,11 +26,11 @@
   margin-bottom: 10px;
 
   font-weight: var(--font-w700);
-  @include font (14p, 1.14, 0.03em);
+  @include font (14px, 1.14, 0.03em);
   text-transform: uppercase;
 }
 
 .excellence__text {
   color: var(--text-color-two);
-  @include font (14p, 1.71, 0.03em);
+  @include font (14px, 1.71, 0.03em);
 }

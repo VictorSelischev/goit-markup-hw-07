@@ -1,11 +1,11 @@
 .section {
   padding: 95px 0;
 
-  &--no-pt {
+  &_padding-top_null {
     padding-top: 0;
   }
 
-  &--fon {
+  &_fon_gray {
     background: var(--button-filter-color);
   }
 }

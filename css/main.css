@@ -35,7 +35,7 @@
   overflow: hidden;
 }
 
-.site-nav, .contacts, .address-list, .icons-list, .buttons-list, .excellence-list, .development, .team-list, .clients-list, .portfolio {
+.navigation .nav-list, .contacts-list, .address-list, .icons-list, .buttons-list, .excellence-list, .development-list, .team-list, .clients-list, .portfolio {
   list-style: none;
 }
 
@@ -75,11 +75,11 @@ textarea {
   padding: 95px 0;
 }
 
-.section--no-pt {
+.section_padding-top_null {
   padding-top: 0;
 }
 
-.section--fon {
+.section_fon_gray {
   background: var(--button-filter-color);
 }
 
@@ -115,11 +115,11 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.logo--black {
+.logo_color_black {
   color: var(--brand-color-black);
 }
 
-.logo--white {
+.logo_color_white {
   color: var(--brand-color-white);
 }
 
@@ -132,18 +132,17 @@ textarea {
   margin-bottom: 20px;
 }
 
-.site-nav {
+.navigation .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.site-nav__item:not(:last-child),
-.contacts__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__link {
+.nav-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
@@ -157,7 +156,7 @@ textarea {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.site-nav__link:hover, .site-nav__link:focus {
+.nav-list__link:hover, .nav-list__link:focus {
   color: var(--brand-color);
 }
 
@@ -178,17 +177,21 @@ textarea {
   background-color: var(--brand-color);
 }
 
-.contacts {
+.contacts-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.contacts--ml {
+.header__contacts-list {
   margin-left: auto;
 }
 
-.contacts__link {
+.contacts-list__item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.contacts-list__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -210,11 +213,11 @@ textarea {
   transition: color var(--transition-duration) var(--transition-timing-function);
 }
 
-.contacts__link:hover, .contacts__link:focus {
+.contacts-list__link:hover, .contacts-list__link:focus {
   color: var(--brand-color);
 }
 
-.contacts__icon {
+.contacts-list__icon {
   margin-right: 10px;
   fill: currentColor;
 }
@@ -266,11 +269,6 @@ textarea {
   background-color: var(--background-color-section);
   border: 1px solid rgba(255, 255, 255, 0.3);
   outline: none;
-}
-
-.button__icon {
-  margin-left: 10px;
-  fill: currentColor;
 }
 
 .icons-list {
@@ -349,6 +347,11 @@ textarea {
 
 .button:hover, .button:focus {
   background-color: var(--button-filter-color-hover);
+}
+
+.button__icon {
+  margin-left: 10px;
+  fill: currentColor;
 }
 
 .buttons-list {
@@ -664,7 +667,7 @@ textarea {
   border-bottom: 1px solid #ececec;
 }
 
-.header__container {
+.container_header_flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -678,7 +681,7 @@ textarea {
   background-color: var(--background-color-section);
 }
 
-.footer__container {
+.container_footer_flex {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -700,7 +703,7 @@ textarea {
   background-color: var(--background-color-section);
 }
 
-.overlay {
+.section-hero_overlay_img {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
@@ -744,7 +747,7 @@ textarea {
 .excellence__subtitle {
   margin-bottom: 10px;
   font-weight: var(--font-w700);
-  font-size: 14p;
+  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -752,26 +755,26 @@ textarea {
 
 .excellence__text {
   color: var(--text-color-two);
-  font-size: 14p;
+  font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
-.development {
+.development-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.development__item {
+.development-list__item {
   position: relative;
 }
 
-.development__item:not(:last-child) {
+.development-list__item:not(:last-child) {
   margin-right: 30px;
 }
 
-.development__wrapper {
+.development-list__wrapper {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -789,7 +792,7 @@ textarea {
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-.development__text {
+.development-list__text {
   color: var(--color-white);
   text-align: center;
   font-weight: var(--font-w700);

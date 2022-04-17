@@ -1,15 +1,16 @@
-.site-nav {
+.navigation 
+
+.nav-list {
   @extend %list;
   
   display: flex;
 }
 
-.site-nav__item:not(:last-child),
-.contacts__item:not(:last-child) {
+.nav-list__item:not(:last-child) {
   margin-right: 50px;
 }
 
-.site-nav__link {
+.nav-list__link {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
