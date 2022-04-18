@@ -22,7 +22,7 @@
   background-color: var(--button-filter-color);
 }
 
-.excellence__subtitle {
+.excellence-list__subtitle {
   margin-bottom: 10px;
 
   font-weight: var(--font-w700);
@@ -30,7 +30,7 @@
   text-transform: uppercase;
 }
 
-.excellence__text {
+.excellence-list__text {
   color: var(--text-color-two);
   @include font (14px, 1.71, 0.03em);
 }

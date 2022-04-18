@@ -4,12 +4,9 @@
   background-color: var(--background-color-section);
 }
 
-.container_footer_flex {
+.footer__container {
   display: flex;
   align-items: baseline;
 }
 
-.footer__logo-address {
-  margin-right: 70px;
-  flex-grow: 1;
-}
+

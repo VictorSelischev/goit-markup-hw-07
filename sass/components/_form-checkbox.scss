@@ -1,3 +1,11 @@
+.form-modal__checkbox-text {
+  @include centeredFlex ();
+  margin-bottom: 30px;
+
+  color: var(--text-color-two);
+  @include font (14px, 1.71, 0.03em);
+}
+
 .form-modal__checkbox[type='checkbox'] {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -26,16 +34,10 @@
   stroke-width: 0.2px;
 }
 
-.form-modal__checkbox-text {
-  @include centeredFlex ();
-  margin-bottom: 30px;
-
-  color: var(--text-color-two);
-  @include font (14px, 1.71, 0.03em);
-  }
-
 .form-modal__link {
   color: var(--brand-color);
 
   cursor: pointer;
 }
+
+

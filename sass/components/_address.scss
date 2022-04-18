@@ -16,9 +16,13 @@
   font-style: normal;
   @include font (14px, 1.71, 0.03em);
 
-    &--footer-color-two {
+    &_color_two {
     color: var(--color-section-text-two);
   }
 }
 
+.footer__logo-address {
+  margin-right: 70px;
+  flex-grow: 1;
+}
 
