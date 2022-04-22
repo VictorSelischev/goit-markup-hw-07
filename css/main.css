@@ -121,11 +121,11 @@ textarea {
   letter-spacing: 0.03em;
 }
 
-.logo_color_black {
+.logo__part_color_black {
   color: var(--brand-color-black);
 }
 
-.logo_color_white {
+.logo__part_color_white {
   color: var(--brand-color-white);
 }
 
